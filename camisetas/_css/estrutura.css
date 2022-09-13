@@ -1,0 +1,13 @@
+#fundo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%);
+    background-image: url('_img/fundo.pngs');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+

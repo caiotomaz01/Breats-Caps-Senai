@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html>
+<head><meta name='robots' content='none' /><base href="https://n129.network-auth.com/Enlace-core-to-m/hi/dpAtscbc/" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title> SENAI - 117 Mogi das Cruzes</title>
+  <style type="text/css" media="screen">
+    html { font-size: 100%;-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+form { margin: 0; }
+label { cursor: pointer; text-align: left !important; }
+button, input {
+  -webkit-appearance:none;
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+  *vertical-align: middle;
+  line-height: normal;
+  *overflow: visible;
+}
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+
+a, a:visited, a:active {color: #fff; text-decoration: none;}
+
+.hidden { display: none; }
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.4em;
+  font-family: georgia, palatino, serif;
+}
+
+h1, h2,  h3, p, a {
+  font-family: CiscoSans, helvetica, helvetica neue, verdana, tahoma, sans-serif;
+}
+h1 {
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 35px;
+  color: #555;
+  margin: 0 0 1em;
+}
+h2 {
+  font-size: 14px;
+  font-weight: normal;
+}
+h3 {
+  font-size: 9px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #888;
+}
+p{
+  color: #555;
+  text-align: left !important;
+}
+
+.link_in_text a { color: #555 }
+
+.header {
+  border-bottom: 1px solid #ddd;
+  padding: 2em 0;
+  margin: 0 0 2em 0;
+}
+
+.header table { width: 100%; }
+#title_cell { vertical-align: bottom; }
+#icon_cell { text-align: center; height: 100px; }
+#icon_cell img {
+  max-width: 200px;
+  margin-top: 70px;
+}
+
+#container {
+  max-width: 900px;
+  min-width: 300px;
+  margin: 0 auto;
+  background: #fff;
+  text-align: center;
+}
+
+#content {
+  background: #fff;
+}
+
+#continue {
+  padding: 2em;
+}
+
+#blocked {
+  padding: 2em;
+}
+
+#auth {
+  box-sizing: border-box;
+  padding: 0 1.5em 2em;
+}
+
+#right_col {
+  width: 100%;
+  display: block;
+  margin-top: 4em;
+  margin: auto;
+}
+
+#account a {
+  color: #1795E6;
+  margin-right:  1em;
+  padding-right: 1em;
+  border-right: 1px solid #ccc;
+}
+
+#account a:hover {
+  color: #0876BD;
+}
+
+#account a:last-child {
+  border: none;
+}
+
+#sign_in {
+  background: #777777;
+  color: #ffffff;
+  border-radius: 2px;
+  margin: 2.5em 0 1em;
+  padding: 1em;
+  box-sizing: border-box;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+#sign_in:hover {
+  opacity: .85;
+}
+
+#blocked_msg {
+  text-align: center;
+  padding: 15px 0;
+}
+
+#claim_ap_msg {
+  text-align: center;
+  padding: 15px 0;
+}
+
+.formarea h3 {
+  line-height: 0;
+}
+
+.formarea input {
+  background: #eee;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  border-radius: 2px;
+  padding: .7em;
+  width: 100%;
+}
+
+#email_field {
+  margin-bottom: 1.5em;
+}
+
+.field-size {
+  max-width: 500px;
+}
+
+
+#icon_cell {
+  display: none;
+}
+
+.logo {
+  max-width: 400px;
+  display: block;
+  margin: 40px auto;
+}
+
+
+.button {
+  color: #ffffff;
+  background: #777777;
+  padding: 1em 2em;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  display: inline-block;
+  margin: 1em 0;
+}
+
+.button:hover {
+  opacity: .85;
+}
+
+#forgot_password, .form_links:not(.hidden) {
+  display: inline;
+}
+
+#signin_form .form_links {
+  float: right;
+}
+
+#forgot_password a {
+  display: none;
+}
+
+.form_links a {
+  font-size:  12px;
+  color: #1795E6;
+}
+
+#create_account_form h3 {
+  margin-top: 3em;
+}
+
+.footer {
+  width: 100%;
+  background: #eee;
+  border-top: 1px solid #ddd;
+  padding: 2em 0;
+  text-align: center;
+  display: inline-block;
+}
+
+.footer img {
+  margin: .5em 0;
+}
+
+.meraki_go_footer {
+  width: 100%;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  padding: 2em 0;
+  text-align: center;
+  display: inline-block;
+}
+
+.meraki_go_footer img {
+  margin: .5em 0;
+}
+
+.error {
+  background: #eee;
+  border-radius: 2px;
+  border: 1px solid #ddd;
+  margin: 3em 3em 0;
+  box-sizing: border-box;
+  padding: 0 .5em;
+}
+
+.error p {
+  color: #999;
+  font-size: 12px;
+}
+
+.login-error {
+  background: #ffdddd;
+  border-radius: 2px;
+  border: 1px solid #ffb8b8;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.login-error p {
+  color: #ff5959;
+  font-size: 12px;
+}
+
+.login-error img {
+  width: 11px;
+  margin: 5px 7px 0 0;
+}
+
+input:invalid, textarea:invalid { background-color: #f0dddd; }
+.formarea input:invalid, textarea:invalid { border-radius: 1px; -moz-box-shadow: 0px 0px 0px red; -webkit-box-shadow: 0px 0px 0px red; box-shadow: 0px 0px 0px red; }
+.formarea label.invalid {border: none; color: red; min-height: inherit; padding: 5px 0 0; margin: 0;}
+
+@media (min-width: 370px) {
+  #auth {
+    padding: 3em 3em 5em;
+  }
+  #left_col {
+    text-align: center;
+  }
+}
+
+@media (min-width: 550px) {
+  #auth {
+    padding: 3em 3em 5em;
+  }
+  #left_col {
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 3em;
+    text-align: center;
+  }
+  #right_col {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 730px) {
+  #auth {
+    display: inline-block;
+    padding: 3em 3em 5em;
+  }
+  #left_col {
+    float: left;
+    text-align: left;
+    width: 50%;
+    padding-right: 3em;
+    box-sizing: border-box;
+  }
+  #right_col {
+    float: left;
+    width: 50%;
+    margin: 0;
+    padding-left: 3em;
+    box-sizing: border-box;
+  }
+}
+
+.GoSplash .header {
+  padding-top: 4em;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.GoSplash #blocked {
+  padding-top: 1em;
+}
+
+.GoSplash .GoSplash__blockedIcon {
+  height: 8em;
+}
+
+.GoSplash .GoSplash__blockedIconLine--primary {
+  fill: #213A44;
+}
+
+.GoSplash .GoSplash__blockedIconLine--accent {
+  fill: #16E4D8;
+}
+
+.GoSplash h1 {
+  font-weight: 300;
+  color: #213A44;
+}
+
+.GoSplash p {
+  color: #666F77;
+}
+
+@media (max-width: 400px) {
+  .GoSplash .GoSplash__blockedIcon {
+    height: 6em;
+  }
+
+  .GoSplash .header {
+    padding-top: 2em;
+    padding-bottom: 0.5em;
+  }
+
+  .GoSplash h1 {
+    font-size: 24px;
+  }
+}
+
+  </style>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+
+<body>
+  <div id="content">
+    <div id="container">
+      <div class="header" id="center_col">
+        <div id="icon_cell"><img src='data:image/png;base64,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
+AAAASUVORK5CYII=
+' /></div>
+        <div id="logo"><img class="logo" src="https://n129.network-auth.com/Ambiente-de-Test/n/veieRabc/splash/instant_preview/0/4f00b071be3e56cf85e594c35749bdc6bd1cdfcf/logo-sesisenai.jpg?path_only=false"></div>
+      </div>
+
+      <div class="error hidden">
+        <p></p>
+      </div>
+
+      <div id="auth" class="field-size">
+        <div id="center_col">
+          <div class="login-error hidden">
+            <p><img src="/images/warning_red.png" alt="Warning red" /></p>
+          </div>
+          <div id="signin_form" class="formarea">
+                  <form id="sign_in_form" onsubmit="javascript:return update_form_action_from_headers(document.getElementById(&quot;sign_in_form&quot;));" action="https://n129.network-auth.com/Enlace-core-to-m/hi/dpAtscbc/login?continue_url=https%3A%2F%2Fwww.google.com" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+        <div id="signin_form" class="formarea">
+          <h3>USUÁRIO (LOGIN)</h3>
+          <input id="email_field" name="email" type="text">
+          <h3>SENHA</h3>
+          <input id="password_field" name="password" type="password" class="jsAnalyticsExclude">
+          <input type="submit" name="commit" value="Log in" class="btn btn-default" id="sign_in" />
+        </div>
+      </form>
+      <script type="text/javascript" charset="utf-8">
+                function getButtonContainer() {
+          return document.getElementsByClassName('color_button')[0];
+        }
+
+        function getButton() {
+          return document.getElementsByClassName('btn')[0] || document.getElementsByClassName('button')[0];
+        }
+
+        function disableButton(button) {
+          button.disabled = true;
+          if (button.nodeName == 'A') {
+            button.style.pointerEvents = 'none';
+          } else if (button.nodeName == 'INPUT') {
+            button.style.cursor = 'not-allowed';
+          }
+        }
+
+        function enableButton(button) {
+          button.disabled = false;
+          if (button.nodeName == 'A') {
+            button.style.pointerEvents = 'auto';
+          } else if (button.nodeName == 'INPUT') {
+            button.style.cursor = 'auto';
+          }
+        }
+
+        function handleClick(elem) {
+          var button = getButton();
+          if (elem.checked) {
+            enableButton(button)
+          } else {
+            disableButton(button);
+          }
+        }
+
+        document.addEventListener("DOMContentLoaded", function(event) {
+          var buttonContainer = getButtonContainer();
+          var button = getButton();
+          disableButton(button);
+
+          var gdprConsent = document.createElement('div');
+          var consentMsg = "Termo de Aceite da Política de Segurança da Informação\n            \nDeclaro que estou ciente e concordo com a Política  de  Segurança da Informação do SESI-SP e SENAI-SP, bem como  reconheço que a violação dos dispositivos nela contidos ferem os preceitos do Código de Ética do SESI-SP e SENAI-SP, sendo passível de aplicação  das  sanções  estabelecidas  pela  legislação brasileira competente.";
+          var consentHTML = '<p style="font-weight:bold">Você deve concordar com o seguinte para acessar a Internet.</p>' +
+            '<div class="flex-container">' +
+              '<input type="checkbox" id="gdpr_checkbox" onchange="handleClick(this)" style="-webkit-appearance: checkbox; margin-right: 5px; width: inherit"/>' +
+              '<pre style="display: inline-flex; margin-top: 0; white-space: pre-wrap;">' +
+                '<label for="gdpr_checkbox" style="font-family: CiscoSans, helvetica, helvetica neue, verdana, tahoma, sans-serif;">' + consentMsg + '</label>' +
+              '</pre>' +
+            '</div>';
+          gdprConsent.innerHTML = consentHTML;
+          if (buttonContainer) {
+            buttonContainer.parentNode.insertBefore(gdprConsent, buttonContainer);
+          } else {
+            button.parentNode.insertBefore(gdprConsent, button);
+          }
+        });
+
+      </script>
+            <div id="forgot_password">
+        <a href="https://account.network-auth.com/account/reset_account_password">Esqueci minha senha</a>
+      </div>
+
+            <script type="text/javascript" charset="utf-8">
+        var link = document.getElementById('resend_email_link');
+        var msg = document.getElementById('resend_email_message');
+        link.addEventListener("click", function(e) {
+          e.preventDefault();
+          var xmlhttp = new XMLHttpRequest();
+          xmlhttp.onreadystatechange = function() {
+            if (xmlhttp.readyState == XMLHttpRequest.DONE ) {
+              if (xmlhttp.status == 200) {
+                msg.innerHTML = "Entre o código que acabamos de te enviar aqui:";
+              } else {
+                msg.innerHTML = "Sua conta não pode ser verificada por e-mail. If you believe you are seeing this message in error, please contact the network administrator.";
+              }
+            }
+          };
+          xmlhttp.open("GET", link.href, true);
+          xmlhttp.send();
+        });
+      </script>
+
+
+            <div style="display: none;" class="form_links hidden">
+              <a class="toggle_link" id="create_account_link" href="#">Criar uma conta</a>
+            </div>
+          </div>
+
+          <div id="account" class="form_links hidden">
+            <div id="create_account_form" class="formarea hidden">
+              <h2><!-- Self registration is disabled --></h2>
+              <!-- Self registration is disabled -->
+              <div class="form_links">
+                <a class="toggle_link" id="signin_link" href="#">Log in</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <script type="text/javascript" charset="utf-8">
+        document.getElementById("create_account_form").style.display = 'none';
+
+        function show_signin() {
+          document.getElementById("signin_form").style.display = 'block';
+          document.getElementById("create_account_form").style.display = 'none';
+          do_prevent(arguments);
+          return false;
+        }
+
+        function show_create_account() {
+          document.getElementById("signin_form").style.display = 'none';
+          document.getElementById("create_account_form").style.display = 'block';
+          do_prevent(arguments);
+          return false;
+        }
+
+        function do_prevent(args) {
+          if(args.length > 0 && typeof(args[0].preventDefault) == 'function')
+            args[0].preventDefault();
+        }
+
+        if (document.addEventListener) {
+          var c_a_l = document.getElementById('create_account_link'); if (c_a_l) { c_a_l.addEventListener('click', show_create_account, true); }
+          var s_l = document.getElementById('signin_link'); if (c_a_l) { s_l.addEventListener('click', show_signin, true); }
+        } else if (document.attachEvent) {
+          var c_a_l = document.getElementById('create_account_link'); if (c_a_l) { c_a_l.attachEvent('onclick', show_create_account); }
+          var s_l = document.getElementById('signin_link'); if (c_a_l) { s_l.attachEvent('onclick', show_signin); }
+        }
+      </script>
+
+      <script type="text/javascript" charset="utf-8">
+        
+              function update_form_action_from_headers(form) {
+        var _request = new XMLHttpRequest();
+        var url = 'https://n129.network-auth.com/Enlace-core-to-m/hi/dpAtscbc/login?continue_url=CONTINUE_URL_PLACEHOLDER';
+        _request.open('HEAD', window.location, true);
+        _request.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+        _request.onreadystatechange = function() {
+          if (_request.readyState === 4) {
+            var continue_url = _request.getResponseHeader('Continue-Url');
+            form.action = url.replace('CONTINUE_URL_PLACEHOLDER', continue_url);
+            form.submit();
+          }
+        }
+        _request.send(null);
+        return false;
+      }
+
+        
+      </script>
+
+</div>
+</body>
+</html>
